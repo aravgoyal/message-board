@@ -1,0 +1,53 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Board</title>
+    <style>
+        .message-block {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .timestamp {
+            color: #666;
+            font-size: 12px;
+        }
+
+        input[type="text"] {
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 5px;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Message Board</h1>
+    <form action="/post_message" method="post">
+        <label for="message">Type a message:</label>
+        <input type="text" id="message" name="message" maxlength="128" required>
+        <button type="submit">Post</button>
+    </form>
+    <h3>Messages</h3>
+    {% for entry in messages %}
+        <div class="message-block">
+            <p>{{ entry['message'] }}</p>
+            <p class="timestamp">{{ entry['timestamp'] }}</p>
+        </div>
+    {% endfor %}
+</body>
+</html>
