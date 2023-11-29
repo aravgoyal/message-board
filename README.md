@@ -24,15 +24,9 @@ The application fulfills the specified requirements by providing the following f
 
 ## How to Start the Application
 
-### Installation
-
-1. Clone the repository
-2. Navigate to the project directory
-3. Install dependencies
-
-### Run the Application
-
-4. Run the Flask application in terminal
-5. Navigate to given address.
+1. Clone the repository: git clone https://github.com/aravgoyal/message-board.git
+2. Navigate to the project directory: cd message-board
+3. Run the Flask application in terminal: python app.py
+4. Navigate to given address.
 
 
