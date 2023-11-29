@@ -15,7 +15,7 @@ The template file that defines the structure and style of the web pages. It incl
 ### CSS Styles (within index.html)
 Simple styles to enhance the visual appearance of the message blocks and form elements.
 
-## Requirements Fulfillment
+## Requirements
 The application fulfills the specified requirements by providing the following features:
 - Users can type a message and post it to the message board.
 - Messages are displayed on the board from most to least recent.
