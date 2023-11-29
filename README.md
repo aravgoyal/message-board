@@ -22,4 +22,17 @@ The application fulfills the specified requirements by providing the following f
 - Users on different computers can post to the same board and view each other’s messages.
 - Messages have a maximum length of 128 characters.
 
+## How to Start the Application
+
+### Installation
+
+1. Clone the repository
+2. Navigate to the project directory
+3. Install dependencies
+
+### Run the Application
+
+4. Run the Flask application in terminal: python app.py
+5. Navigate to given address.
+
 
