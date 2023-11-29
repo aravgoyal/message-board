@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a basic Flask web application for a message board. Users can post messages and view messages in descending order based on the timestamp.
+This is a basic message board web application that utilizes Python, HTML, and the Flask framework. Users can post and view anonymous, time-stamped messages from other users in descending order.
 
 ## Components and Interactions
 
@@ -28,5 +28,3 @@ The application fulfills the specified requirements by providing the following f
 2. Navigate to the project directory: cd message-board
 3. Run the Flask application in terminal: python app.py
 4. Navigate to given address.
-
-
