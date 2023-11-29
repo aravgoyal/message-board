@@ -32,7 +32,7 @@ The application fulfills the specified requirements by providing the following f
 
 ### Run the Application
 
-4. Run the Flask application in terminal: python app.py
+4. Run the Flask application in terminal
 5. Navigate to given address.
 
 
