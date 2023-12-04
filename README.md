@@ -7,13 +7,13 @@ This is a basic message board web application that utilizes Python, HTML, and th
 ## Components and Interactions
 
 ### Flask App (app.py) 
-The main application file containing the Flask server setup, routes, and message handling logic.
+This is the main application file containing the Flask server setup, routes, and message handling logic.
 
 ### HTML Template (templates/index.html)
-The template file that defines the structure and style of the web pages. It includes input forms for posting messages, a button to submit messages, and a section to display messages.
+This is the template file that defines the structure and style of the web pages. It includes input forms for posting messages, a button to submit messages, and a section to display messages.
 
 ### CSS Styles (within index.html)
-Simple styles to enhance the visual appearance of the message blocks and form elements.
+This includes simple styles to enhance the visual appearance of the message blocks and form elements.
 
 ## Requirements
 The application fulfills the specified requirements by providing the following features:
